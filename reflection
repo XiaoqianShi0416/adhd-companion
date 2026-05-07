@@ -1,0 +1,30 @@
+# Reflection on v0.1 — 2026-05-07
+
+## Observation
+After self-testing v0.1 with a real procrastivity scenario 
+(avoiding paper reading by cleaning and tinkering with this very demo), 
+I noticed the agent fell into what I'd call a "Socratic loop": 
+it kept returning agency to me by asking "what's the smallest next step?" 
+without recognizing when I had already decomposed the task sufficiently 
+(I had identified opening the PDF, reading the abstract, etc.).
+
+## Design Tension Identified
+Pure autonomy-supportive scaffolds may unintentionally stall users 
+who have already passed the "activation" threshold and now need 
+*forward momentum* rather than further reflection. The prompt 
+optimizes for non-directive tone but lacks a "progression detection" 
+mechanism.
+
+## Implication for v0.2
+The next iteration should explore:
+1. How to detect when decomposition is "sufficient"
+2. How to transition from reflective questioning to 
+   gentle forward-pointing without violating autonomy
+3. Whether literature on scaffolding fading (Wood, Bruner & Ross) 
+   offers a model for this transition
+
+## Connection to Procrastivity Framing
+Interestingly, building this demo itself became a procrastivity 
+behavior — preparatory work that disguised avoidance of the actual 
+paper-reading task. This is consistent with my own research framing 
+and provides first-person validation of the phenomenon.
