@@ -13,11 +13,9 @@ scaffolds can be deployed at zero marginal cost — relevant for
 neurodivergent populations who may face barriers to paid tools.
 
 ## Usage
-​```bash
-pip install google-genai
+​pip install google-genai
 export GEMINI_API_KEY=AIza...
 python main.py
-​```
 
 ## Status
 v0.1 — Initial prototype with an exploratory prompt design.
