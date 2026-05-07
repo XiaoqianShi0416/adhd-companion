@@ -14,6 +14,7 @@ neurodivergent populations who may face barriers to paid tools.
 
 ## Usage
 ​```
+
 pip install google-genai
 
 export GEMINI_API_KEY=AIza...
