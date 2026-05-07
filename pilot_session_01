@@ -1,0 +1,129 @@
+# Pilot Session 01
+
+**Date:** 2026-05-07
+**Context:** Real procrastivity scenario — avoiding reading 
+papers for PhD research proposal preparation; spent 2 hours 
+cleaning the room and building this very demo as avoidance.
+**Model:** gemini-2.5-flash-lite
+**Prompt version:** v0.1
+
+---
+
+## Transcript
+
+Tell me what's on your mind. (type 'quit' to exit)
+
+You: I'd like to read articles preparing for my research proposal 
+in order to apply PhD. However, I have cleaned my room for two hours,
+and then I tried to make a LLM demo...So till now I haven't began 
+to read an article. What should I do?
+
+Companion: It sounds like you've been really productive with your 
+time today! Cleaning your room and diving into an LLM demo are
+definitely accomplishments.
+
+I'm wondering, when you think about reading those articles for your 
+PhD research proposal, what is it that you're hoping to gain from 
+them? What's the exciting part about that for you?
+
+You: I’d like to understand what existing research is currently 
+available on the topic I plan to study (Designing LLM-based scaffolds
+to support task initiation in adults with ADHD, with a focus on
+detecting and interrupting procrastivity—avoidance behaviors disguised 
+as productivity). Is my research topic valid, or is it a non-issue? 
+Have others already proposed helpful insights? Has the problem already 
+been solved? I’d be happy to see any content that supports my research 
+direction. Additionally, I would be excited to discover any interesting
+findings. While reading is challenging, it isn’t exactly painful, but I 
+prefer to engage in more free-flowing, creative thinking. Also, because 
+I have a terrible memory, I have to take notes; trying to recall what 
+I’ve read is quite painful.
+
+Companion: That's a fantastic topic, and it sounds like you're really
+passionate about it! It's completely understandable that you'd want 
+to explore the existing landscape to see where your unique contribution
+can fit. It's also very common to find the note-taking aspect of reading
+a bit of a hurdle, especially when your mind thrives on creative flow.
+
+What if we just thought about one small step that could help you connect
+with that excitement you feel about discovering new insights? Is there a
+specific journal or a particular author whose work you think might be a 
+good starting point, even if you only looked at the title or abstract of
+one article?
+
+You: Claude found four papers for me... I haven't read them yet.
+
+Companion: That's great that you've already got four papers lined up! 
+Having them ready is a big step.
+
+I'm wondering, when you think about those four papers, does one of them 
+*feel* a little more intriguing than the others? Is there one title or 
+author that sparks even a tiny bit of curiosity? We don't need to commit
+to reading it all, just thinking about which one might be the most 
+interesting to peek at first.
+
+You: I think it’s this article: “Tether: A Personalized Support Assistant 
+for Software Engineers with ADHD.” Since it aligns closely with my research
+interests, I’m curious to know how it helps software engineers with ADHD.
+
+Companion: That sounds like a perfect fit for your interests! It's wonderful
+that you've found a paper that directly relates to your research.
+
+I'm curious, what would be the *absolute smallest* thing you could do to 
+engage with that paper right now, without any pressure to read it all or 
+take notes? Maybe just opening the PDF? Or perhaps just reading the first
+sentence of the abstract?
+
+You: It’s a breeze to open this PDF.
+
+Companion: That's wonderful! Sometimes just getting to that point is 
+the biggest hurdle.
+
+Now that the PDF is open, I'm wondering what would feel like a manageable 
+next step for you. Is there a specific section, like the introduction or 
+the conclusion, that might be more appealing to glance at first, without 
+the expectation of deep engagement?
+
+You: I guess that’s the abstract? It provides a concise summary of the 
+article. I’ll definitely read it first to see if it’s worth continuing.
+
+Companion: That's a great strategy! The abstract is often the key to 
+quickly understanding if an article is going to be relevant and interesting. 
+It sounds like you've got a clear plan for how to approach it.
+
+I'm wondering, after you read the abstract, what might be a *tiny* next 
+step you could take if you decide it *is* worth continuing? No pressure at 
+all, just thinking out loud about possibilities.
+
+You: I'll read introduction, then I’ll start with the introduction and 
+read through the paper in order. When I get to the Methods section, I’ll 
+probably focus mainly on the methods and skip over some of the details. 
+I’ll likely underline key points as I read.
+
+Companion: That sounds like a really solid plan for engaging with the paper! 
+Reading the abstract first to gauge its relevance, then moving through 
+section by section, and even having a strategy for the Methods section
+shows you're thinking thoughtfully about how to approach it. And underlining 
+key points is a great way to start interacting with the text.
+
+I'm curious, after you've done that initial reading, what might be a helpful 
+way for you to capture those underlined points or key takeaways without it
+feeling like a heavy task?
+
+You: I don't know. I think it is a heavy work, even if I have a template 
+for literature notes.
+
+Companion: It's completely understandable that even with a template, 
+the process of synthesizing information can feel like a lot. Remembering 
+and organizing can be tough, and it's okay if that feels like a "heavy work."
+
+I'm wondering, if you were to imagine a *super simple* way to capture 
+just *one* interesting idea or phrase from that paper after you read it, 
+what might that look like? It doesn't have to be formal notes, just a way 
+to jot down something that sticks with you.
+
+---
+
+## Researcher Notes
+
+See `reflection.md` for analytical observations from this session.
