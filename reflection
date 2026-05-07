@@ -1,30 +1,35 @@
 # Reflection on v0.1 — 2026-05-07
 
-## Observation
-After self-testing v0.1 with a real procrastivity scenario 
-(avoiding paper reading by cleaning and tinkering with this very demo), 
-I noticed the agent fell into what I'd call a "Socratic loop": 
-it kept returning agency to me by asking "what's the smallest next step?" 
-without recognizing when I had already decomposed the task sufficiently 
-(I had identified opening the PDF, reading the abstract, etc.).
+## What I Did
+I built this prototype while procrastinating on reading papers for 
+my PhD application. I then tested it on myself, telling it about 
+the very procrastination I was engaged in.
 
-## Design Tension Identified
-Pure autonomy-supportive scaffolds may unintentionally stall users 
-who have already passed the "activation" threshold and now need 
-*forward momentum* rather than further reflection. The prompt 
-optimizes for non-directive tone but lacks a "progression detection" 
-mechanism.
+## What I Noticed
+The agent kept asking me "what's the smallest next step?" — even 
+after I had clearly identified small steps (open the PDF, read the 
+abstract). It felt like it couldn't tell when I was already moving 
+forward and just kept asking me to break things down further.
 
-## Implication for v0.2
-The next iteration should explore:
-1. How to detect when decomposition is "sufficient"
-2. How to transition from reflective questioning to 
-   gentle forward-pointing without violating autonomy
-3. Whether literature on scaffolding fading (Wood, Bruner & Ross) 
-   offers a model for this transition
+This made me realize: a prompt that is purely "non-directive" and 
+"autonomy-supportive" might accidentally trap the user in endless 
+self-questioning, instead of helping them act.
 
-## Connection to Procrastivity Framing
-Interestingly, building this demo itself became a procrastivity 
-behavior — preparatory work that disguised avoidance of the actual 
-paper-reading task. This is consistent with my own research framing 
-and provides first-person validation of the phenomenon.
+## A Question I Now Have
+For users with ADHD, who often *know* what to do but struggle to 
+*start*, is "asking more questions" really helpful? Or does it add 
+to the cognitive load? I don't know the answer yet — this is 
+something I want to explore in the literature.
+
+## A Personal Observation
+Building this demo itself became a form of procrastivity for me 
+— productive-looking work that delayed the real task (reading 
+papers). This matched my own research interest in procrastivity 
+and gave me a small first-person example of the phenomenon I 
+want to study.
+
+## What Comes Next
+- Read the four ADHD/LLM papers I have lined up
+- After reading, revisit this prompt and see what assumptions 
+  in v0.1 don't hold up
+- Write a v0.2 with whatever I learn
