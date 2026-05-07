@@ -23,9 +23,9 @@ st.caption("An autonomy-supportive LLM scaffold — research prototype v0.1")
 
 # Initialize session
 if "client" not in st.session_state:
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = st.secrets.get("GEMINI_API_KEY") or os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        st.error("Please set GEMINI_API_KEY environment variable.")
+        st.error("Please set GEMINI_API_KEY in secrets or environment variable.")
         st.stop()
     st.session_state.client = genai.Client(api_key=api_key)
     st.session_state.chat = st.session_state.client.chats.create(
